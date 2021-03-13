@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		BA22622F25FC13250006816E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22622E25FC13250006816E /* AppDelegate.swift */; };
 		BA22623125FC13250006816E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22623025FC13250006816E /* SceneDelegate.swift */; };
-		BA22623325FC13250006816E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22623225FC13250006816E /* ViewController.swift */; };
+		BA22623325FC13250006816E /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22623225FC13250006816E /* MainVC.swift */; };
 		BA22623625FC13250006816E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA22623425FC13250006816E /* Main.storyboard */; };
 		BA22623925FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA22623725FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodeld */; };
 		BA22623B25FC13260006816E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22623A25FC13260006816E /* Assets.xcassets */; };
 		BA22623E25FC13260006816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA22623C25FC13260006816E /* LaunchScreen.storyboard */; };
+		BA22624825FC536E0006816E /* FitnessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22624725FC536E0006816E /* FitnessVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA22622B25FC13250006816E /* IsaIshangulyyev_HW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaIshangulyyev_HW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA22622E25FC13250006816E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA22623025FC13250006816E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA22623225FC13250006816E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA22623225FC13250006816E /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BA22623525FC13250006816E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA22623825FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IsaIshangulyyev_HW1.xcdatamodel; sourceTree = "<group>"; };
 		BA22623A25FC13260006816E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA22623D25FC13260006816E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA22623F25FC13260006816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA22624725FC536E0006816E /* FitnessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				BA22622E25FC13250006816E /* AppDelegate.swift */,
 				BA22623025FC13250006816E /* SceneDelegate.swift */,
-				BA22623225FC13250006816E /* ViewController.swift */,
+				BA22623225FC13250006816E /* MainVC.swift */,
 				BA22623425FC13250006816E /* Main.storyboard */,
 				BA22623A25FC13260006816E /* Assets.xcassets */,
 				BA22623C25FC13260006816E /* LaunchScreen.storyboard */,
 				BA22623F25FC13260006816E /* Info.plist */,
 				BA22623725FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodeld */,
+				BA22624725FC536E0006816E /* FitnessVC.swift */,
 			);
 			path = IsaIshangulyyev_HW1;
 			sourceTree = "<group>";
@@ -142,7 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA22623925FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodeld in Sources */,
-				BA22623325FC13250006816E /* ViewController.swift in Sources */,
+				BA22623325FC13250006816E /* MainVC.swift in Sources */,
+				BA22624825FC536E0006816E /* FitnessVC.swift in Sources */,
 				BA22622F25FC13250006816E /* AppDelegate.swift in Sources */,
 				BA22623125FC13250006816E /* SceneDelegate.swift in Sources */,
 			);

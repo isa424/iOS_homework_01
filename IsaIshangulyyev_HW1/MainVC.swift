@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainVC: UIViewController {
+    @IBAction func goBackToFirst(_ sender: UIStoryboardSegue) {}
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func onDoubleTap(_ sender: UITapGestureRecognizer) {
+        performSegue(withIdentifier: "second", sender: self)
+    }
 }
 
