@@ -15,6 +15,7 @@
 		BA22623B25FC13260006816E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22623A25FC13260006816E /* Assets.xcassets */; };
 		BA22623E25FC13260006816E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA22623C25FC13260006816E /* LaunchScreen.storyboard */; };
 		BA22624825FC536E0006816E /* FitnessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22624725FC536E0006816E /* FitnessVC.swift */; };
+		BA4DF4FD25FCE7FE00A31652 /* types.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA4DF4FC25FCE7FE00A31652 /* types.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BA22623D25FC13260006816E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA22623F25FC13260006816E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA22624725FC536E0006816E /* FitnessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessVC.swift; sourceTree = "<group>"; };
+		BA4DF4FC25FCE7FE00A31652 /* types.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = types.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +65,13 @@
 				BA22622E25FC13250006816E /* AppDelegate.swift */,
 				BA22623025FC13250006816E /* SceneDelegate.swift */,
 				BA22623225FC13250006816E /* MainVC.swift */,
+				BA22624725FC536E0006816E /* FitnessVC.swift */,
 				BA22623425FC13250006816E /* Main.storyboard */,
 				BA22623A25FC13260006816E /* Assets.xcassets */,
 				BA22623C25FC13260006816E /* LaunchScreen.storyboard */,
+				BA4DF4FC25FCE7FE00A31652 /* types.plist */,
 				BA22623F25FC13260006816E /* Info.plist */,
 				BA22623725FC13250006816E /* IsaIshangulyyev_HW1.xcdatamodeld */,
-				BA22624725FC536E0006816E /* FitnessVC.swift */,
 			);
 			path = IsaIshangulyyev_HW1;
 			sourceTree = "<group>";
@@ -133,6 +136,7 @@
 			files = (
 				BA22623E25FC13260006816E /* LaunchScreen.storyboard in Resources */,
 				BA22623B25FC13260006816E /* Assets.xcassets in Resources */,
+				BA4DF4FD25FCE7FE00A31652 /* types.plist in Resources */,
 				BA22623625FC13250006816E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

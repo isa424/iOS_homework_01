@@ -11,13 +11,17 @@ import UIKit
 class FitnessVC: UIViewController {
     @IBOutlet weak var mView: UIView!
 
+    @IBAction func goBackToSecond(_ sender: UIStoryboardSegue) {}
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var mPickerView: UIPickerView!
+    
+    
+  
     /*
     // MARK: - Navigation
 
