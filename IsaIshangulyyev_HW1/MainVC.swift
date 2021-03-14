@@ -20,4 +20,3 @@ class MainVC: UIViewController {
         performSegue(withIdentifier: "second", sender: self)
     }
 }
-

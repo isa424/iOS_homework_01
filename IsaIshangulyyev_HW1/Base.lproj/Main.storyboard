@@ -147,6 +147,7 @@
                     <connections>
                         <outlet property="mPickerView" destination="nrE-d8-cMa" id="ni0-Jh-Sdu"/>
                         <outlet property="mView" destination="xh9-fX-w4k" id="HyX-Me-T89"/>
+                        <outlet property="mView2" destination="2eU-7i-fXy" id="h0e-jh-EDn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LGc-dw-vb7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

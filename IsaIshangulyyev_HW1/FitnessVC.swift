@@ -9,47 +9,54 @@
 import UIKit
 
 class FitnessVC: UIViewController {
+    let heightMetricTypes = ["cm", "feet", "inch"]
+    let weightMetricTypes = ["kg", "lbs", "stone"]
     @IBOutlet weak var mView: UIView!
+    @IBOutlet weak var mView2: UIView!
     @IBOutlet weak var mHeight: UITextField!
     @IBOutlet weak var mWeight: UITextField!
     @IBOutlet weak var mHeightMetric: UISegmentedControl!
     @IBOutlet weak var mWeightMetric: UISegmentedControl!
     @IBOutlet weak var mGenderMale: UISwitch!
     @IBOutlet weak var mCalculateBtn: UIButton!
-    
 
     @IBAction func goBackToSecond(_ sender: UIStoryboardSegue) {}
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        mView.layer.cornerRadius = 5
+        mView.layer.borderWidth = 1
+        mView.layer.shadowOpacity = 125
+        mView.layer.shadowOffset = CGSize(width: 5, height: 5)
+        
+        mView2.layer.cornerRadius = 5
+        mView2.layer.borderWidth = 1
+        mView2.layer.shadowOpacity = 125
+        mView2.layer.shadowOffset = CGSize(width: 5, height: 5)
+//        mView.layer.shadowOffset
         // Do any additional setup after loading the view.
     }
     
     @IBAction func onTap(_ sender: UIButton) {
+//        var message = ""
+//        message = "Height is \(mHeight.text); "
+//        let mHeightType = mHeightMetric.selectedSegmentIndex
         let mAlert = UIAlertController(title: "Title", message: "Messasge", preferredStyle: .alert)
         let mAction = UIAlertAction(title: "Yes", style: .default, handler: nil)
 
         mAlert.addAction(mAction)
         self.present(mAlert, animated: true)
+        
+        
     }
     
     @IBAction func onHeightSegmentChange(_ sender: UISegmentedControl) {
-        switch mHeightMetric.selectedSegmentIndex {
-        case 0:
-            mHeight.placeholder = "cm"
-            break
-        case 1:
-            mHeight.placeholder = "feet"
-            break
-        case 2:
-            mHeight.placeholder = "inch"
-            break
-        default:
-            break
-        }
+        mHeight.placeholder = heightMetricTypes[mHeightMetric.selectedSegmentIndex]
     }
     
     @IBAction func onWeightSegmentChange(_ sender: UISegmentedControl) {
+            print(mWeightMetric.selectedSegmentIndex)
         switch mWeightMetric.selectedSegmentIndex {
         case 0:
             mWeight.placeholder = "kg"
@@ -64,12 +71,9 @@ class FitnessVC: UIViewController {
             break
         }
     }
-    
 
     @IBOutlet weak var mPickerView: UIPickerView!
-    
-    
-  
+
     /*
     // MARK: - Navigation
 
